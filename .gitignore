@@ -18,5 +18,8 @@ build/
 *.log
 npm-debug.log*
 
+# Arduino secrets
+secrets.h
+
 # OS
 .DS_Store

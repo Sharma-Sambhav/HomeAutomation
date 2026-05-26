@@ -2,19 +2,7 @@
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
-
-// =================================================
-// CONFIG — edit only this section
-// =================================================
-
-#define WIFI_SSID       "Airtel_mano_4651"
-#define WIFI_PASS       "air56101"
-
-#define MQTT_HOST       "27b242d52b0f40e2a950dbd63ede6f19.s1.eu.hivemq.cloud"
-#define MQTT_PORT       8883
-#define MQTT_USER       "Viper"
-#define MQTT_PASS       "Viper@123"
-#define MQTT_CLIENT_ID  "ESP32_ROOM1"
+#include "secrets.h"
 
 #define PIN_RED    27
 #define PIN_GREEN  25
